@@ -1,0 +1,16 @@
+git config --global user.email "efilho14@gmail.com"
+git config --global user.name "Eduardo"
+git commit -m "criei meu repositorio"
+git add index.php
+git add --all
+
+
+echo "# udemy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/efilho14/udemy.git
+git push -u origin master
+
+
+git pull origin master
